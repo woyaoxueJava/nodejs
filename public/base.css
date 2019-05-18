@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+button{
+    height: 30px;
+    width: 60px;
+    background: rgba(180, 224, 56, 0.582);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    border: 2px outset yellowgreen;
+    color: rgb(248, 70, 180)
+}
+button:hover{
+    background: rgba(180, 224, 56, 0.9);
+    color: orange;
+}

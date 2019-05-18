@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/public/main.css">
+    <link rel="stylesheet" href="/public/base.css">
+</head>
+<body>
+    <ul>
+        <% for (var i = 0; i < db.length; i++) { %>
+            
+            <li>
+                
+                <span class="head"><%= db[i].name %>：</span> <span class="content"><%= db[i].content %> </span> <span class="right"><%= db[i].time %></span>
+            </li>
+
+            <% } %>
+    </ul>
+    <button onclick="window.location='/post'">新增</button>
+</body>
+</html>
